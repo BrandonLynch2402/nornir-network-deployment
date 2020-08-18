@@ -1,7 +1,6 @@
 from nornir import InitNornir
 from nornir.plugins.tasks.networking import netmiko_send_command, netmiko_send_config, napalm_get
 from nornir.plugins.functions.text import print_result
-from rich import print
 
 def deployment(task):
     
