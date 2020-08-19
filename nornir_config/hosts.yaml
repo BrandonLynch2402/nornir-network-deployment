@@ -23,9 +23,3 @@ S5:
     hostname: S5
     groups:
         - cisco_group
-
-S6:
-    hostname: 192.168.198.26
-    groups:
-        - cisco_group
-
