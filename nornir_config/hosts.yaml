@@ -1,25 +1,25 @@
 ---
 S1:
-    hostname: S1
+    hostname: 192.168.198.21
     groups:
         - cisco_group
 
 S2:
-    hostname: S2
+    hostname: 192.168.198.22
     groups:
         - cisco_group
 
 S3:
-    hostname: S3
+    hostname: 192.168.198.23
     groups:
         - cisco_group
 
 S4:
-    hostname: S4
+    hostname: 192.168.198.24
     groups:
         - cisco_group
 
 S5:
-    hostname: S5
+    hostname: 192.168.198.25
     groups:
         - cisco_group
