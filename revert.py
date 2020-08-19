@@ -46,7 +46,7 @@ def deployment(task):
 
 
 def main() -> None:
-    nr = InitNornir(config_file='config.yaml')
+    nr = InitNornir('nornir_config/config.yaml')
     result = nr.run(task=deployment)
     print_result(result)
 
