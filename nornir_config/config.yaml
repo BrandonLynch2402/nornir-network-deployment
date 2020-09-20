@@ -1,9 +1,12 @@
 ---
-core:
-    num_workers: 100
 inventory:
-    plugin: nornir.plugins.inventory.simple.SimpleInventory
+    plugin: SimpleInventory
     options:
-        host_file: "~/code/nornir-100-vlans/nornir_config/hosts.yaml"
-        group_file: "~/code/nornir-100-vlans/nornir_config/groups.yaml"
-        defaults_file: "~/code/nornir-100-vlans/nornir_config/defaults.yaml"
+        host_file: "~/code/nornir/nornir-100-vlans/nornir_config/hosts.yaml"
+        group_file: "~/code/nornir/nornir-100-vlans/nornir_config/groups.yaml"
+        defaults_file: "~/code/nornir/nornir-100-vlans/nornir_config/defaults.yaml"
+
+runners:
+    plugin: threaded
+    options:
+        num_workers: 100
